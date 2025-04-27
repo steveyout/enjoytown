@@ -42,6 +42,26 @@ export default function RootLayout({
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
+        <script type="text/javascript">
+	atOptions = {
+		'key' : '86170904905e8f88e4232086dfbb050b',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//affectionparson.com/86170904905e8f88e4232086dfbb050b/invoke.js"></script>
+        <script type="text/javascript">
+	atOptions = {
+		'key' : 'b62e6028017550fbd2a568f66726246c',
+		'format' : 'iframe',
+		'height' : 600,
+		'width' : 160,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//affectionparson.com/b62e6028017550fbd2a568f66726246c/invoke.js"></script>
       </head>
       <GoogleAnalytics gaId="G-2TLKHCT9DQ" />
       <body className="bg-background min-h-screen font-sans antialiased">
