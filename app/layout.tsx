@@ -54,7 +54,10 @@ export default function RootLayout({
 	};
 	`}
         </Script>
-<Script type="text/javascript" src="//affectionparson.com/86170904905e8f88e4232086dfbb050b/invoke.js" />
+        <Script
+          type="text/javascript"
+          src="//affectionparson.com/86170904905e8f88e4232086dfbb050b/invoke.js"
+        />
         <Script type="text/javascript" id="ads1">
           {`
 	atOptions = {
@@ -65,8 +68,11 @@ export default function RootLayout({
 		'params' : {}
 	};
 	`}
-</Script>
-<Script type="text/javascript" src="//affectionparson.com/b62e6028017550fbd2a568f66726246c/invoke.js" />
+        </Script>
+        <Script
+          type="text/javascript"
+          src="//affectionparson.com/b62e6028017550fbd2a568f66726246c/invoke.js"
+        />
       </head>
       <GoogleAnalytics gaId="G-2TLKHCT9DQ" />
       <body className="bg-background min-h-screen font-sans antialiased">
