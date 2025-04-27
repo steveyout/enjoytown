@@ -73,6 +73,14 @@ export default function RootLayout({
           type="text/javascript"
           src="//affectionparson.com/b62e6028017550fbd2a568f66726246c/invoke.js"
         />
+        <Script async strategy="afterInteractive" src="//acscdn.com/script/aclib.js"></Script>
+        <Script data-cfasync="false" strategy="lazyOnload" id="adcash">
+          {`
+            aclib.runPop({
+        zoneId: '9033646',
+    });
+             `}
+        </Script>
       </head>
       <GoogleAnalytics gaId="G-2TLKHCT9DQ" />
       <body className="bg-background min-h-screen font-sans antialiased">
