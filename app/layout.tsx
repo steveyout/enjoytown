@@ -44,16 +44,19 @@ export default function RootLayout({
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
         <Script type="text/javascript">
-	atOptions = {
+          {`
+     atOptions = {
 		'key' : '86170904905e8f88e4232086dfbb050b',
 		'format' : 'iframe',
 		'height' : 60,
 		'width' : 468,
 		'params' : {}
 	};
-/>
+	`}
+        </Script>
 <Script type="text/javascript" src="//affectionparson.com/86170904905e8f88e4232086dfbb050b/invoke.js" />
         <Script type="text/javascript">
+          {`
 	atOptions = {
 		'key' : 'b62e6028017550fbd2a568f66726246c',
 		'format' : 'iframe',
@@ -61,7 +64,8 @@ export default function RootLayout({
 		'width' : 160,
 		'params' : {}
 	};
-/>
+	`}
+</Script>
 <Script type="text/javascript" src="//affectionparson.com/b62e6028017550fbd2a568f66726246c/invoke.js" />
       </head>
       <GoogleAnalytics gaId="G-2TLKHCT9DQ" />
