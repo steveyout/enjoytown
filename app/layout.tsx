@@ -42,6 +42,10 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
+        <meta
+          name="309e6a858263aa259aac038b5c076df36bc24258"
+          content="309e6a858263aa259aac038b5c076df36bc24258"
+        />
         <meta name="theme-color" content="#ffffff" />
         <Script type="text/javascript" id="ads">
           {`
