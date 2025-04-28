@@ -73,7 +73,7 @@ export default function RootLayout({
 	};
 	`}
         </Script>
-        <Script>
+        <Script id="hilltop">
           {`
         (function(vlddli){
         var d = document,
