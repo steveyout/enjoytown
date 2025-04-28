@@ -43,6 +43,10 @@ export default function RootLayout({
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
+        <Script
+          type="text/javascript"
+          src="//direcompulsion.com/86170904905e8f88e4232086dfbb050b/invoke.js"
+        />
         <Script type="text/javascript" id="ads">
           {`
      atOptions = {
@@ -54,10 +58,6 @@ export default function RootLayout({
 	};
 	`}
         </Script>
-        <Script
-          type="text/javascript"
-          src="//direcompulsion.com/86170904905e8f88e4232086dfbb050b/invoke.js"
-        />
         <Script type="text/javascript" id="ads1">
           {`
 	atOptions = {
