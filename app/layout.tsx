@@ -73,20 +73,6 @@ export default function RootLayout({
 	};
 	`}
         </Script>
-        <Script id="hilltop">
-          {`
-        (function(vlddli){
-        var d = document,
-        s = d.createElement('script'),
-        l = d.scripts[d.scripts.length - 1];
-        s.settings = vlddli || {};
-        s.src = '\/\/profitable-turn.com\/b.XxV\/s_dqGKlW0pYeWWcM\/QeLmW9Eu\/ZxUglzkGPdTNYUz\/MVT\/AF3nNfj\/g\/t\/NFjWM\/xyMKDqcJ2sOnQD';
-        s.async = true;
-        s.referrerPolicy = 'no-referrer-when-downgrade';
-        l.parentNode.insertBefore(s, l);
-      })({})
-      `}
-        </Script>
         <Script
           type="text/javascript"
           src="//direcompulsion.com/b62e6028017550fbd2a568f66726246c/invoke.js"
@@ -94,8 +80,8 @@ export default function RootLayout({
         <Script async strategy="afterInteractive" src="//acscdn.com/script/aclib.js"></Script>
         <Script data-cfasync="false" strategy="lazyOnload" id="adcash">
           {`
-            aclib.runPop({
-        zoneId: '9033646',
+            aclib.runAutoTag({
+        zoneId: 's3xgwl2iyw',
     });
              `}
         </Script>
