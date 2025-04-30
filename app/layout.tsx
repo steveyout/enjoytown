@@ -80,8 +80,8 @@ export default function RootLayout({
         <Script async strategy="afterInteractive" src="//acscdn.com/script/aclib.js"></Script>
         <Script data-cfasync="false" strategy="lazyOnload" id="adcash">
           {`
-            aclib.runAutoTag({
-        zoneId: 's3xgwl2iyw',
+            aclib.runPop({
+        zoneId: '9033646',
     });
              `}
         </Script>
