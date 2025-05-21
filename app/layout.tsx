@@ -73,6 +73,7 @@ export default function RootLayout({
 	};
 	`}
         </Script>
+
         <Script
           type="text/javascript"
           src="//direcompulsion.com/b62e6028017550fbd2a568f66726246c/invoke.js"
