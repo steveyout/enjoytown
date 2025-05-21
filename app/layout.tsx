@@ -77,26 +77,14 @@ export default function RootLayout({
           type="text/javascript"
           src="//direcompulsion.com/b62e6028017550fbd2a568f66726246c/invoke.js"
         />
-        {/*
-        <Script async strategy="afterInteractive" src="//acscdn.com/script/aclib.js"></Script>
+
+        <Script async strategy="afterInteractive" src="//acscdn.com/script/aclib.js" />
         <Script data-cfasync="false" strategy="lazyOnload" id="adcash">
           {`
             aclib.runPop({
         zoneId: '9033646',
     });
              `}
-        </Script>
-        */}
-        <Script type="text/javascript" data-cfasync="false" strategy="lazyOnload" id="adcash">
-          {`
-        /*
-        <
-        ![CDATA[/* */
-        (function(){var p=window,i="a3445223f8ee6d98f7a27d43a97b4600",g=[["siteId",115-267+183+5151169],["minBid",0],["popundersPerIP","0"],["delayBetween",0],["default","PHNjcmlwdCB0eXBlPSd0ZXh0L2phdmFzY3JpcHQnIHNyYz0nLy9wbDIzNjE1Mjc0LmhpZ2hyZXZlbnVlbmV0d29yay5jb20vMDYvNDEvZGQvMDY0MWRkZWZhYWJmMzBjOWU3NmJmMWQ1Zjc4YmEzZGEuanMnPjwvc2NyaXB0Pg=="],["defaultPerDay",0],["topmostLayer","auto"]],t=["d3d3LmJsb2NrYWRzbm90LmNvbS9YSGsveWpxdWVyeS13ZXVpLm1pbi5qcw==","ZG5oZmk1bm4yZHQ2Ny5jbG91ZGZyb250Lm5ldC9NUk9jcS9JL2RjbG91ZGluYXJ5LWpxdWVyeS1maWxlLXVwbG9hZC5taW4uY3Nz"],l=-1,q,r,f=function(){clearTimeout(r);l++;if(t[l]&&!(1773155603000<(new Date).getTime()&&1<l)){q=p.document.createElement("script");q.type="text/javascript";q.async=!0;var z=p.document.getElementsByTagName("script")[0];q.src="https://"+atob(t[l]);q.crossOrigin="anonymous";q.onerror=f;q.onload=function(){clearTimeout(r);p[i.slice(0,16)+i.slice(0,16)]||f()};r=setTimeout(f,5E3);z.parentNode.insertBefore(q,z)}};if(!p[i]){try{Object.freeze(p[i]=g)}catch(e){}f()}})
-      ();
-        /*]]>/
-        * */
-         `}
         </Script>
       </head>
       <GoogleAnalytics gaId="G-2TLKHCT9DQ" />
