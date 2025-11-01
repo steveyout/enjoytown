@@ -60,7 +60,7 @@ export default function RootLayout({
         </Script>
         <Script
           type="text/javascript"
-          src="//direcompulsion.com/86170904905e8f88e4232086dfbb050b/invoke.js"
+          src="//patronagemaestroforestall.com/86170904905e8f88e4232086dfbb050b/invoke.js"
         />
         <Script type="text/javascript" id="ads1">
           {`
@@ -75,7 +75,7 @@ export default function RootLayout({
         </Script>
         <Script
           type="text/javascript"
-          src="//direcompulsion.com/b62e6028017550fbd2a568f66726246c/invoke.js"
+          src="//patronagemaestroforestall.com/b62e6028017550fbd2a568f66726246c/invoke.js"
         />
 
         <Script async strategy="afterInteractive" src="//acscdn.com/script/aclib.js" />
